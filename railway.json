@@ -1,0 +1,12 @@
+{
+  "deployments": {
+    "production": {
+      "type": "node",
+      "version": "14.X",
+      "env": {
+        "DATABASE_URL": "YOUR_DATABASE_URL",
+        "API_KEY": "YOUR_API_KEY"
+      }
+    }
+  }
+}
